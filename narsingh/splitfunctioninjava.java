@@ -1,8 +1,8 @@
 class Main {
     public static void main(String[] args) {
         String about="My name is khan";
-        String [] array =about.split(" ");
-        for (String val : array)
+        String [] arr =about.split(" ");
+        for (String val : arr)
             {
                 System.out.println(val);
                 System.out.println("string length:"+val.length());
